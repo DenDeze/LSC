@@ -1,6 +1,6 @@
 Deur contact Tasmota setup:
 
-via Termite met behulp van de usb naar TTL converter:
+via Termite met behulp van de usb naar TTL converter (zie wiki tasmota)*:
 Backlog ssid1 voorbeeldssid; password1 voorbeeldpsw; ssid2 ; password2
 
 
@@ -14,3 +14,6 @@ rule1 ON Wifi#Connected DO backlog serialsend5 55 AA 00 01 00 00 00; delay 10; s
 rule2 ON TuyaReceived#Data=55aa000200000155aa0005000501010001010d DO POWER ON ENDON
 rule3 ON TuyaReceived#Data=55aa000200000155aa0005000501010001000c DO POWER OFF ENDON
 restart 1
+
+
+*:https://github.com/arendst/Tasmota/wiki/Initial-Configuration#using-serial-terminal
