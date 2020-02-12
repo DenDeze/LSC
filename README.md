@@ -7,12 +7,15 @@ Wiki om LSC PIR en LSC deur contacten te flashen zodat deze kunnen communiceren 
 Nodig om de chip van nieuwe firmware te voorzien:
 
 USB naar TTL converter
+
 soldeerbout
+
 termite (software)
-Pyflasher (de snelste manier voor iemand die niet in een cmd shell wilt werken)
+
+Pyflasher (GUI wrapper voor esptool.py)
 
 https://github.com/arendst/Tasmota/wiki/Flashing#tasmota-pyflasher
 
 
-uitleg op:
+Volledige handleiding:
 https://github.com/DenDeze/LSC/wiki
