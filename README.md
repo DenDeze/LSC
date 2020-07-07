@@ -31,27 +31,28 @@ de volgende aansluitingen zijn noodzakelijk om te kunnen flashen:
 
 Met als resultaat:
 
-![deur sensor](https://github.com/DenDeze/LSC/blob/master/IMG_8658.JPG?raw=true)
-![pir](https://github.com/DenDeze/LSC/blob/master/IMG_8663.JPG?raw=true)
+![deur sensor](https://github.com/DenDeze/LSC/blob/master/IMG_8658.JPG?raw=true)  
+
+![pir](https://github.com/DenDeze/LSC/blob/master/IMG_8663.JPG?raw=true)  
 
 Om te kunnen flashen is de usb naar TTL converter nodig, connecteer io0 naar gnd om de module in flash modus te krijgen.
 Connecteer als laatste de 3,3V. Hierdoor start de module op (zonder batterijen).
 download de laatste tasmota firmware (tasmota.bin):
 http://thehackbox.org/tasmota/release/
 
-zodra de module spanning heeft start je py flasher op en laad je het tasmota.bin bestand.
+zodra de module spanning heeft start je py flasher op en laad je het tasmota.bin bestand.  
 
-![](https://github.com/DenDeze/LSC/blob/master/Knipsel2.PNG?raw=true)
+![](https://github.com/DenDeze/LSC/blob/master/Knipsel2.PNG?raw=true)  
 
 
-Na het flashen kan de usb naar ttl connector uitgetrokken worden.
+Na het flashen kan de usb naar ttl connector uitgetrokken worden.  
 
 Hierop is het handig om de batterijen te plaatsen in de module.
 Na het plaatsen van de batterijen op de knop achter op het device drukken waardoor deze tasmota opstart, aangezien de tuya chip maar even opstart is het aan te raden de usb naar ttl converter weer in te steken zodat de ESP chip continu spanning krijgt om de configuratie af te maken.
 
-Start termite op en volg de stappen 1 of 2 afhankelijk van het LSC device.
+Start termite op en volg de stappen 1 of 2 afhankelijk van het LSC device.  
 
-![](https://github.com/DenDeze/LSC/blob/master/Knipsel3.PNG?raw=true)
+![](https://github.com/DenDeze/LSC/blob/master/Knipsel3.PNG?raw=true)  
 
 # Deur contact Tasmota setup:
 
