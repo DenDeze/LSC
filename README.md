@@ -2,11 +2,11 @@
 LSC action devices tasmota
 
 
-Wiki om LSC PIR en LSC deurcontacten van een nieuwe firmare te voorzien zodat deze kunnen communiceren met een MQTT broker.
+Wiki om LSC PIR en LSC deurcontacten zoals te koop bij de action van een nieuwe firmware te voorzien zodat deze kunnen communiceren met een MQTT broker.
 
 
 
-Benodigdheden om de chip van nieuwe firmware te voorzien:
+# Benodigdheden om de chip van nieuwe firmware te voorzien:
 
 USB naar TTL converter
 
