@@ -31,8 +31,8 @@ de volgende aansluitingen zijn noodzakelijk om te kunnen flashen:
 
 Met als resultaat:
 
-![deur sensor](https://github.com/DenDeze/LSC/blob/master/IMG_8658.JPG)
-![pir](https://github.com/DenDeze/LSC/blob/master/IMG_8663.JPG)
+![deur sensor](https://github.com/DenDeze/LSC/blob/master/IMG_8658.JPG?raw=true)
+![pir](https://github.com/DenDeze/LSC/blob/master/IMG_8663.JPG?raw=true)
 
 Om te kunnen flashen is de usb naar TTL converter nodig, connecteer io0 naar gnd om de module in flash modus te krijgen.
 Connecteer als laatste de 3,3V. Hierdoor start de module op (zonder batterijen).
@@ -41,7 +41,7 @@ http://thehackbox.org/tasmota/release/
 
 zodra de module spanning heeft start je py flasher op en laad je het tasmota.bin bestand.
 
-![](https://github.com/DenDeze/LSC/blob/master/Knipsel2.PNG)
+![](https://github.com/DenDeze/LSC/blob/master/Knipsel2.PNG?raw=true)
 
 
 Na het flashen kan de usb naar ttl connector uitgetrokken worden.
@@ -51,7 +51,7 @@ Na het plaatsen van de batterijen op de knop achter op het device drukken waardo
 
 Start termite op en volg de stappen 1 of 2 afhankelijk van het LSC device.
 
-![](https://github.com/DenDeze/LSC/blob/master/Knipsel3.PNG)
+![](https://github.com/DenDeze/LSC/blob/master/Knipsel3.PNG?raw=true)
 
 # Deur contact Tasmota setup:
 
