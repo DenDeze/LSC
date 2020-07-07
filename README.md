@@ -60,7 +60,6 @@ via Termite met behulp van de usb naar TTL converter ([wiki tasmota](https://git
 
 ga naar http://192.168.1.2 (afhankelijk van het ip adres dat zichtbaar is in termite):
 
-
 > Backlog mqtthost 192.168.2.11; mqttuser ; mqttpassword ; topic huis/deur; otaurl http://thehackbox.org/tasmota/release/tasmota.bin
 
 > module 54
@@ -75,15 +74,11 @@ ga naar http://192.168.1.2 (afhankelijk van het ip adres dat zichtbaar is in ter
 
 > restart 1
 
-PIR Tasmota setup:
+# PIR Tasmota setup:
 
 via Termite met behulp van de usb naar TTL converter ([wiki tasmota](https://github.com/arendst/Tasmota/wiki/Initial-Configuration#using-serial-terminal)):
 
 > Backlog ssid1 voorbeeldssid; password1 voorbeeldpsw; ssid2 ; password2
-
-
-
-# PIR setup tasmota:
 
 ga naar http://192.168.1.2 (afhankelijk van het ip adres dat zichtbaar is in termite):
 open de console
